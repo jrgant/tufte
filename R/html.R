@@ -18,7 +18,7 @@
 #' @export
 tufte_html = function(
   ..., tufte_features = c('fonts', 'background', 'italics'),
-  tufte_variant = c('default', 'envisioned', 'switcher'), margin_references = TRUE
+  tufte_variant = c('default', 'envisioned', 'switched'), margin_references = TRUE
 ) {
 
   tufte_variant = match.arg(tufte_variant)
